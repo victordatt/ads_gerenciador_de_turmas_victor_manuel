@@ -1,0 +1,25 @@
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: #0984e3;
+}
+
+button {
+    background-color: #0984e3;
+    border: none;
+    color: #fff;
+    width: 200px;
+    border-radius: 10px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #74b9ff;
+}
